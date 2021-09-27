@@ -1,5 +1,74 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en">
+=======
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive Layout</title>
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+
+p {
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  
+}
+>>>>>>> a371b3c60e5402bd29aac0b6b6c28b9a04f84d82
 
 <head>
     <meta charset="utf-8">
@@ -7,6 +76,17 @@
     <title>Assignment Solution for Module 2</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+<<<<<<< HEAD
+=======
+<body>
+<h1>Our Menu</h1>
+
+<div class="row">
+  <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
+  <div class="col-lg-3 col-md-6"><p>Item 2</p></div>
+  <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
+</div>
+>>>>>>> a371b3c60e5402bd29aac0b6b6c28b9a04f84d82
 
 <body>
     <h1>Our Menu</h1>
@@ -52,5 +132,8 @@
         </div>
     </div>
 </body>
+<<<<<<< HEAD
 
+=======
+>>>>>>> a371b3c60e5402bd29aac0b6b6c28b9a04f84d82
 </html>
